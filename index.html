@@ -15,7 +15,7 @@
             background-color: #f0f4f8; /* Soft blue-gray background */
             color: #2d3748; /* Dark text for contrast */
         }
-        /* Ensure smooth scrolling for anchor links */
+        /* Ensure smooth scrolling for anchor links (still useful if sections are on the same page) */
         html {
             scroll-behavior: smooth;
         }
@@ -36,16 +36,27 @@
             <nav>
                 <ul class="space-y-4 text-center md:text-left">
                     <li>
-                        <a href="#home" class="block py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 text-lg font-medium">Home</a>
+                        <!-- Link to the main index page -->
+                        <a href="index.html" class="block py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 text-lg font-medium">Home</a>
                     </li>
                     <li>
-                        <a href="#about" class="block py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 text-lg font-medium">About Me</a>
+                        <!-- Link to an About page (you'll need to create about.html) -->
+                        <a href="about.html" class="block py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 text-lg font-medium">About Me</a>
                     </li>
                     <li>
-                        <a href="#skills" class="block py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 text-lg font-medium">Skills & Interests</a>
+                        <!-- Link to a Projects/Skills page (you'll need to create skills.html or projects.html) -->
+                        <a href="skills.html" class="block py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 text-lg font-medium">Skills & Interests</a>
                     </li>
                     <li>
-                        <a href="#contact" class="block py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 text-lg font-medium">Get in Touch</a>
+                        <!-- Link to a Contact page (you'll need to create contact.html) -->
+                        <a href="contact.html" class="block py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 text-lg font-medium">Get in Touch</a>
+                    </li>
+                    <!-- Add more links for other pages as needed -->
+                    <li>
+                        <a href="blog.html" class="block py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 text-lg font-medium">Blog</a>
+                    </li>
+                    <li>
+                        <a href="resume.html" class="block py-2 px-4 rounded-lg hover:bg-purple-700 transition duration-200 text-lg font-medium">Resume</a>
                     </li>
                 </ul>
             </nav>
@@ -64,8 +75,8 @@
                     </p>
                 </header>
 
-                <!-- About Me Section -->
-                <section id="about" class="text-gray-700 leading-relaxed text-lg mb-10 pt-4">
+                <!-- About Me Section (consider moving this content to about.html) -->
+                <section id="about-section" class="text-gray-700 leading-relaxed text-lg mb-10 pt-4">
                     <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mt-10 mb-5 border-b-2 border-purple-200 pb-2">
                         About Me
                     </h2>
@@ -77,8 +88,8 @@
                     </p>
                 </section>
 
-                <!-- Skills/Interests Section -->
-                <section id="skills" class="text-gray-700 leading-relaxed text-lg mb-10 pt-4">
+                <!-- Skills/Interests Section (consider moving this content to skills.html) -->
+                <section id="skills-section" class="text-gray-700 leading-relaxed text-lg mb-10 pt-4">
                     <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mt-10 mb-5 border-b-2 border-purple-200 pb-2">
                         Skills & Interests
                     </h2>
@@ -104,8 +115,8 @@
                     </div>
                 </section>
 
-                <!-- Contact Section -->
-                <section id="contact" class="text-gray-700 leading-relaxed text-lg mb-10 pt-4">
+                <!-- Contact Section (consider moving this content to contact.html) -->
+                <section id="contact-section" class="text-gray-700 leading-relaxed text-lg mb-10 pt-4">
                     <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mt-10 mb-5 border-b-2 border-purple-200 pb-2">
                         Get in Touch
                     </h2>
