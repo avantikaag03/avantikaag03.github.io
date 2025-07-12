@@ -1,6 +1,6 @@
 ## Welcome to Avantika Agarwal's webpage
 
-I am a second year student of Department of Computer Science and Engineering at Indian Institute of Technology Delhi.
+I am a second year PhD student at the Institute for Quantum Computing and David R. Cheriton School of Computer Science at the University of Waterloo.
 
 You can use the [editor on GitHub](https://github.com/avantikaag03/avantikaag03.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
